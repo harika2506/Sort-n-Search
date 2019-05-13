@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d3578075-d34e-4a9e-a73e-f5e440bbf377" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/app_server/views/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/app_server/views/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/home.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -55,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app_server/views/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+            <state relative-caret-position="398">
+              <caret line="51" column="59" selection-start-line="51" selection-start-column="59" selection-end-line="51" selection-end-column="59" />
               <folding>
                 <element signature="n#style#0;n#form#0;n#div#0;n#body#0;n#HTML#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#form#1;n#div#0;n#body#0;n#HTML#0;n#!!top" expanded="true" />
@@ -180,12 +179,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557552316229</updated>
-      <workItem from="1557552318119" duration="3865000" />
+      <workItem from="1557552318119" duration="4049000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3865000" />
+    <option name="totallyTimeSpent" value="4049000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -251,8 +250,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app_server/views/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+        <state relative-caret-position="398">
+          <caret line="51" column="59" selection-start-line="51" selection-start-column="59" selection-end-line="51" selection-end-column="59" />
           <folding>
             <element signature="n#style#0;n#form#0;n#div#0;n#body#0;n#HTML#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#form#1;n#div#0;n#body#0;n#HTML#0;n#!!top" expanded="true" />
