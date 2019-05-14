@@ -9,7 +9,10 @@
 
 
 </head>
-<body>
+<body style="background-color: blanchedalmond">
+    <div>
+        <h1 align="center">SORT n SEARCH</h1>
+    </div>
     <div class="container">
         <form id="formlist" style="text-align: center">
             <select id="myselect" >
@@ -24,8 +27,7 @@
 
         </form>
 
-        <form name="sort" id="sort" style="display:none">
-            <!---- THIS IS FORM 1---->
+        <form name="sort" id="sort" style="display:none" method="post" action="/sort">
             <select id="myselect1">
                 <option value="" selected="selected"></option>
                 <option value="formlist">Home</option>
@@ -34,14 +36,19 @@
             </select>
             <div>
                 Array: <input type="text" name="input"><br>
+                <input name="sortType" type="radio" value="insertion" checked>Insertion Sort
+                <input name="sortType" type="radio" value="selection">Selection Sort
+                <input name="sortType" type="radio" value="merge">Merge Sort
+                <input name="sortType" type="radio" value="quick">Quick Sort
+                <div>
+                    <input type="submit" value="Submit">
+                </div>
 
-                <input type="submit" value="Submit">
             </div>
 
         </form>
 
-        <form name="search" id="search" style="display:none">
-            <!---- THIS IS FORM 2---->
+        <form name="search" id="search" style="display:none" method="post" action="/search">
             <select id="myselect2">
                 <option value="" selected="selected"></option>
                 <option value="formlist">Home</option>
@@ -49,14 +56,25 @@
 
             </select>
             <div>
-                Array: <input type="text" name="fname"><br>
+                Array: <input type="text" name="input" placeholder="Enter values seperated by comma"><br>
+                Enter the number to Search: <input type="text" name="searchValue"><br>
+                <input name="searchType" type="radio" value="linear" checked>Linear Search
+                <input name="searchType" type="radio" value="binary">Binary Search
+            </div>
+            <div>
+                <input type="submit" value="Submit">
             </div>
 
-            <input type="submit" value="Submit">
         </form>
 
         <script>
             $("#myselect").on("change", function() {
+                $("#" + $(this).val()).show().siblings().hide();
+            })
+            $("#myselect1").on("change", function() {
+                $("#" + $(this).val()).show().siblings().hide();
+            })
+            $("#myselect2").on("change", function() {
                 $("#" + $(this).val()).show().siblings().hide();
             })
         </script>
